@@ -8,6 +8,7 @@ import { JsArray } from "./components/fundamentos/04-Array";
 import { NavBar } from "./components/NavBarPP/NavBar";
 import { Footer } from "./components/Footer/Footer";
 import { HeroBanner } from "./components/HeroBanner/HeroBanner";
+import { Carousel } from "./components/Carousel/Carousel";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 
       <NavBar></NavBar>
       <HeroBanner></HeroBanner>
+      <Carousel></Carousel>
       <Footer></Footer>
       
     </>

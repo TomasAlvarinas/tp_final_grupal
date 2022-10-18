@@ -4,8 +4,12 @@ import './footer.css'
 export const Footer = () => {
   return (
     
-    <footer>
-    <h1>Footer</h1>
+    <footer>  
+      <div className='end'>
+        <h4> Kalm Deco Home </h4>
+      </div>  
+    
+
     </footer>
   )
 }
