@@ -9,6 +9,7 @@ import { NavBar } from "./components/NavBarPP/NavBar";
 import { Footer } from "./components/Footer/Footer";
 import { HeroBanner } from "./components/HeroBanner/HeroBanner";
 import { Carousel } from "./components/Carousel/Carousel";
+import { Cards } from "./components/Cards/Cards"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <NavBar></NavBar>
       <HeroBanner></HeroBanner>
       <Carousel></Carousel>
+      <Cards></Cards>
       <Footer></Footer>
       
     </>
