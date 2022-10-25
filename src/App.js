@@ -10,6 +10,10 @@ import { Footer } from "./components/Footer/Footer";
 import { HeroBanner } from "./components/HeroBanner/HeroBanner";
 import { Carousel } from "./components/Carousel/Carousel";
 import { Cards } from "./components/Cards/Cards"
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./components/pages/Home";
+import { Shop } from "./components/pages/Shop";
+
 
 
 function App() {
@@ -18,9 +22,14 @@ function App() {
     <>
 
       <NavBar></NavBar>
-      <HeroBanner></HeroBanner>
-      <Carousel></Carousel>
-      <Cards></Cards>
+
+      <Routes>
+           
+        <Route path="/" element={<Home />}/>
+        <Route path="/Shop" element={<Shop />}/>
+      
+      </Routes>
+
       <Footer></Footer>
       
     </>

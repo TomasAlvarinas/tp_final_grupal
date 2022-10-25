@@ -47,9 +47,6 @@ export const NavBar = () => {
                   <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="./index.html">Home</a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="./Page Quienes somos.html">Quienes somos</a>
-                  </li>
                   <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Shop

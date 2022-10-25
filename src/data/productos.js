@@ -43,11 +43,11 @@ const navButtos =[
     },
     {
         link: '#',
-        text: 'Sobre Nosotros',
+        text: 'Shop',
     },
     {
-        link: '#',
-        text: 'Contactos',
+        link: './components/Footer/Footer.js',
+        text: 'Contacto',
     },
 ]
 
