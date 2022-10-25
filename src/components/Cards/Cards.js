@@ -9,6 +9,8 @@ export const Cards = () => {
 
     <h1><u>Nuestro Catalogo</u></h1>
 
+    <br></br>
+
     <div className='container-fluid'>
       <div className='row'>
 

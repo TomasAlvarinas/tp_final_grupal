@@ -10,6 +10,7 @@ export const Home = () => {
     <>
         <HeroBanner />
         <Carousel />
+        <br></br>
         <Cards />
     </>
   )
