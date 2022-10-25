@@ -29,7 +29,9 @@ function App() {
         <Route path="/Shop" element={<Shop />}/>
       
       </Routes>
-
+      
+      <br></br>
+      
       <Footer></Footer>
       
     </>

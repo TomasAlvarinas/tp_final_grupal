@@ -1,0 +1,16 @@
+#cards {
+
+    height: 500px;
+    width: 500px;
+}
+
+#imgcards {
+
+    height: 380px;
+    width: 400px;
+}
+
+h1 {
+
+    font-size: 3.5rem;
+}

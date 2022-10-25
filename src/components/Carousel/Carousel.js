@@ -1,4 +1,5 @@
 import React from 'react'
+import { vid1, vid2, vid3 } from '../../assets'
 import './carousel.css'
 
 export const Carousel = () => {
@@ -16,19 +17,19 @@ export const Carousel = () => {
         <div className="carousel-inner">
 
           <div className="carousel-item active">
-            <video src= "./Assets/videos/WhatsApp Video 2022-08-25 at 8.25.47 PM.mp4" alt="Video01" autoplay muted loop height="525px" type="video/mp4"></video>
+            <video src={vid1} alt="Video01" autoplay muted loop height="525px" type="video/mp4"></video>
             <div className="carousel-caption d-none d-md-block">
             </div>
           </div>
 
           <div className="carousel-item">
-            <video src= "./Assets/videos/2.mp4" alt="Video01" autoplay muted loop height="525px" type="video/mp4"></video>
+            <video src={vid2} alt="Video01" autoplay muted loop height="525px" type="video/mp4"></video>
             <div className="carousel-caption d-none d-md-block">
             </div>
           </div>
 
           <div className="carousel-item">
-            <video src= "./Assets/videos/1.mp4" alt="Video01" autoplay muted loop height="525px" type="video/mp4"></video>
+            <video src={vid3} alt="Video01" autoplay muted loop height="525px" type="video/mp4"></video>
             <div className="carousel-caption d-none d-md-block">
             </div>
           </div>

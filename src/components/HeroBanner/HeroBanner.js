@@ -11,7 +11,7 @@ export const HeroBanner = () => {
           en la que interactuamos dia a dia con el cliente para captar sus ideas <br></br>
           y lograr plasmarlas sobre su hogar
         </h2> 
-
+ 
     </div>
   )
 }
