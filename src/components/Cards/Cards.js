@@ -10,7 +10,9 @@ export const Cards = ({data}) => {
 
     <h1><u>Nuestro Catalogo</u></h1>
 
-    <br></br>
+  
+
+    <div className='container'>
 
     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
             {data.map(({id, title, text, img, url}) => (
@@ -30,7 +32,7 @@ export const Cards = ({data}) => {
         </div>
         <hr/>
 
- 
+    </div>
 
     </>
     

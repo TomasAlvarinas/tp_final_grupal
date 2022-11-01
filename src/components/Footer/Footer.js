@@ -24,11 +24,22 @@ export const Footer = () => {
 
               <div className="col-lg-6">
               <label for="inputEmail4" className="form-label">Email</label>
-              <input type="email" className="form-control" id="inputEmail4"></input>
+              <input type="email" className="form-control" id="inputEmail4" placeholder=''></input>
+              </div>
+
+              <div className="col-lg-6">
+              <label for="exampleInputCel1" className="form-label">Telefono</label>
+              <input type="email" className="form-control" id="inputEmail4" placeholder='Incluí el código de area'></input>
+              </div>
+
+              <div className="col-lg-6">
+              <label for="exampleFormControlTextarea1" className="form-label">Consulta</label>
+              <textarea className='form-control' id='exampleFormControlTextarea1' rows={3}></textarea>
               </div>
 
               </div>
               </div>
+
 
               <br></br>
 

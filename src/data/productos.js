@@ -4,7 +4,7 @@ const productos = [
     {
         id: 'sku001',
         title: 'Bandejas e individuales',
-        text:  'Lorem ipsum',
+        text:  '',
         img: './img/planta.jpeg',
         categorie: 'cat01',
         url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#6'
@@ -12,7 +12,7 @@ const productos = [
     {
         id: 'sku002',
         title: 'Aromatizantes',
-        text:  'Lorem ipsum',
+        text:  '',
         img: './img/aromatizantes.jpg',
         categorie: 'cat02',
         url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#5'
@@ -20,7 +20,7 @@ const productos = [
     {
         id: 'sku003',
         title: 'Canastas',
-        text:  'Lorem ipsum',
+        text:  '',
         img: './img/canastas.jpg',
         categorie: 'cat01',
         url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#8'
@@ -28,7 +28,7 @@ const productos = [
     {
         id: 'sku004',
         title: 'Jarrones',
-        text:  'Lorem ipsum',
+        text:  '',
         img: './img/jarrones.jpg',
         categorie: 'cat02',
         url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#9'
@@ -36,7 +36,7 @@ const productos = [
     {
         id: 'sku005',
         title: 'Textiles',
-        text:  'Lorem ipsum',
+        text:  '',
         img: './img/textiles.jpg',
         categorie: 'cat01',
         url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#12'
@@ -44,7 +44,7 @@ const productos = [
     {
         id: 'sku006',
         title: 'Ceramicas',
-        text:  'Lorem ipsum',
+        text:  '',
         img: './img/ceramicas.jpg',
         categorie: 'cat01',
         url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#11'

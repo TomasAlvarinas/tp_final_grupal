@@ -12,6 +12,7 @@ export const Home = () => {
         <HeroBanner />
         <Carousel />
         <br></br>
+        <br></br>
         <Cards data={productos} />
     </>
   )

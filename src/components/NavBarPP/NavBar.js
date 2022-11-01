@@ -64,10 +64,12 @@ export const NavBar = () => {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <button><a className="nav-link" aria-current="page" href="./Page Contacto.html">Contacto</a></button>
+                    <Link to='/Quienes'><button><a className="nav-link" aria-current="page" href="./Page Contacto.html">Quienes somos</a></button></Link>
                   </li>
                 </ul>
                 
+                <br></br>
+
                 <form className="d-flex">
                   <input className="form-control me-2" type="search" placeholder="Busca por productos" aria-label="Search"></input>
                   <button className="btn btn-outline-success" type="submit">Buscar</button>

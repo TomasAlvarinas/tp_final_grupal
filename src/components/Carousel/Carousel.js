@@ -16,19 +16,19 @@ export const Carousel = () => {
 
         <div className="carousel-inner">
 
-          <div className="carousel-item active">
+          <div className="carousel-item active" data-bs-interval="100">
             <video src={vid2} alt="Video01" autoPlay muted loop type="video/mp4"></video>
             <div className="carousel-caption d-none d-md-block">
             </div>
           </div>
 
-          <div className="carousel-item">
+          <div className="carousel-item" data-bs-interval="100">
             <video src={vid1} alt="Video01" autoPlay muted loop type="video/mp4"></video>
             <div className="carousel-caption d-none d-md-block">
             </div>
           </div>
 
-          <div className="carousel-item">
+          <div className="carousel-item" data-bs-interval="100">
             <video src={vid3} alt="Video01" autoPlay muted loop type="video/mp4"></video>
             <div className="carousel-caption d-none d-md-block">
             </div>

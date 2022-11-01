@@ -8,4 +8,5 @@ export { default as imgcanastas} from './img/canastas.jpg'
 export { default as imgtextiles} from './img/textiles.jpg'
 export { default as imgceramicas} from './img/ceramicas.jpg'
 export { default as imgjarrones} from './img/jarrones.jpg'
+export {default as caroeuge} from './img/caroeuge.jpg'
 
