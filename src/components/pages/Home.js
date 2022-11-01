@@ -1,4 +1,5 @@
 import React from 'react'
+import { productos } from '../../data/productos'
 import { Cards } from '../Cards/Cards'
 import { Carousel } from '../Carousel/Carousel'
 import { HeroBanner } from '../HeroBanner/HeroBanner'
@@ -11,7 +12,7 @@ export const Home = () => {
         <HeroBanner />
         <Carousel />
         <br></br>
-        <Cards />
+        <Cards data={productos} />
     </>
   )
 }

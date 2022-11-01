@@ -1,38 +1,53 @@
+import { imgcanastas } from "../assets"
+
 const productos = [
     {
         id: 'sku001',
-        title: 'Producto 01',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=1',
-        categorie: 'cat01'
+        title: 'Bandejas e individuales',
+        text:  'Lorem ipsum',
+        img: {imgcanastas},
+        categorie: 'cat01',
+        url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#6'
     },
     {
         id: 'sku002',
-        title: 'Producto 02',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
+        title: 'Aromatizantes',
+        text:  'Lorem ipsum',
         img: 'https://picsum.photos/200/200?random=2',
-        categorie: 'cat02'
+        categorie: 'cat02',
+        url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#5'
     },
     {
         id: 'sku003',
-        title: 'Producto 03',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
+        title: 'Canastas',
+        text:  'Lorem ipsum',
         img: 'https://picsum.photos/200/200?random=3',
-        categorie: 'cat01'
+        categorie: 'cat01',
+        url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#8'
     },
     {
         id: 'sku004',
-        title: 'Producto 04',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
+        title: 'Jarrones',
+        text:  'Lorem ipsum',
         img: 'https://picsum.photos/200/200?random=4',
-        categorie: 'cat02'
+        categorie: 'cat02',
+        url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#9'
     },
     {
         id: 'sku005',
-        title: 'Producto 05',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
+        title: 'Textiles',
+        text:  'Lorem ipsum',
         img: 'https://picsum.photos/200/200?random=5',
-        categorie: 'cat01'
+        categorie: 'cat01',
+        url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#12'
+    },
+    {
+        id: 'sku006',
+        title: 'Ceramicas',
+        text:  'Lorem ipsum',
+        img: 'https://picsum.photos/200/200?random=5',
+        categorie: 'cat01',
+        url: 'https://www.canva.com/design/DAE8e10OqA4/pHJ3ld7sJOOhVf-1XPE2uQ/view?utm_content=DAE8e10OqA4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#11'
     },
 ]
 

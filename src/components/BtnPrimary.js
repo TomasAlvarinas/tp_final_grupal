@@ -9,7 +9,7 @@ export const BtnPrimary = ({url, targ, btnTxt}) => {
           <button
               className='btn btn-primary'
           >
-              Documentación {btnTxt}
+              Ver mas {btnTxt}
           </button>
       </a>
   )
