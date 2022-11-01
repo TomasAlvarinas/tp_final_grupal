@@ -6,7 +6,8 @@ export const Carousel = () => {
   return (
 
     <div className='text-center'>
-      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
+
+      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
         
         <div className='carousel-indicators'>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -16,19 +17,19 @@ export const Carousel = () => {
 
         <div className="carousel-inner">
 
-          <div className="carousel-item active" data-bs-interval="100">
+          <div className="carousel-item active" data-bs-interval='1000'>
             <video src={vid2} alt="Video01" autoPlay muted loop type="video/mp4"></video>
             <div className="carousel-caption d-none d-md-block">
             </div>
           </div>
 
-          <div className="carousel-item" data-bs-interval="100">
+          <div className="carousel-item" data-bs-interval="1000">
             <video src={vid1} alt="Video01" autoPlay muted loop type="video/mp4"></video>
             <div className="carousel-caption d-none d-md-block">
             </div>
           </div>
 
-          <div className="carousel-item" data-bs-interval="100">
+          <div className="carousel-item" data-bs-interval="1000">
             <video src={vid3} alt="Video01" autoPlay muted loop type="video/mp4"></video>
             <div className="carousel-caption d-none d-md-block">
             </div>
