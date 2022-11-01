@@ -25,16 +25,14 @@ export const Quienessomos = () => {
 
                 <br></br>
                 <br></br>
-                <br></br>
-
-                <strong>Como arrancamos?</strong>
+ 
+                <strong>¿Como arrancamos?</strong>
 
                 <br></br>
 
                 Nosotras dos siempre fuimos amantes y apasionadas por el mundo de la decoración de interiores, hicimos un curso que duro 1 año en donde aprendimos un montón de técnicas
-                y cosas que hoy en dia somos capaces de plasmarlas en los hogares de los demás, gracias a Kalm deco home
+                y cosas que hoy en dia somos capaces de plasmarlas en los hogares de los demás, gracias a Kalm Deco Home
 
-                <br></br>
                 <br></br>
                 <br></br>
 
@@ -47,6 +45,10 @@ export const Quienessomos = () => {
 
                 <br></br>
                 <br></br>
+
+                <strong>Escribinos por WhatsApp</strong> 
+                <br></br>
+                para consultar presupuestos y obtener más info.
 
                 </div>
 
@@ -67,7 +69,7 @@ export const Quienessomos = () => {
                     <br></br>
                     <br></br>
 
-                    <strong>Escribinos por WhatsApp</strong> para consultar presupuestos y obtener más info.
+
 
                 </div>
 
