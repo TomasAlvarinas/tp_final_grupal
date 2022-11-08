@@ -10,3 +10,7 @@ export { default as imgceramicas} from './img/ceramicas.jpg'
 export { default as imgjarrones} from './img/jarrones.jpg'
 export {default as caroeuge} from './img/caroeuge.jpg'
 
+
+export { default as cartEmpty } from './img/svg/icono.svg'
+export { default as cartFull } from  './img/svg/icono.svg'
+

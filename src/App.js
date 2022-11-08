@@ -14,6 +14,7 @@ import { Route, Routes } from "react-router-dom";
 import { Home } from "./components/pages/Home";
 import { Shop } from "./components/pages/Shop";
 import { Quienessomos } from "./components/pages/Quienessomos";
+import { CartProvider } from "./components/context/CartContext";
 
 
 
@@ -22,6 +23,7 @@ function App() {
   return (
     <>
 
+      <CartProvider>
       <NavBar></NavBar>
 
       <Routes>
@@ -35,6 +37,7 @@ function App() {
       <br></br>
       
       <Footer></Footer>
+      </CartProvider>
       
     </>
   );

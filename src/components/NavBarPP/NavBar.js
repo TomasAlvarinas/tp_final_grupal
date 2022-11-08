@@ -3,6 +3,7 @@ import { navButtos } from "../../data/productos"
 import '../NavBarPP/navbar.css'
 import { Link } from "react-router-dom";
 import { logo } from "../../assets";
+import { Cart } from "../cart/Cart";
 
 
 export const NavBar = () => {
@@ -65,6 +66,9 @@ export const NavBar = () => {
                   </li>
                   <li className="nav-item">
                     <Link to='/Quienes'><button><a className="nav-link" aria-current="page" href="./Page Contacto.html">Quienes somos</a></button></Link>
+                  </li>
+                  <li>
+                    <Cart />
                   </li>
                 </ul>
                 
