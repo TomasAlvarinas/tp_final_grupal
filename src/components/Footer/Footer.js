@@ -1,4 +1,5 @@
 import React from 'react'
+import { ig } from '../../assets'
 import './footer.css'
 
 
@@ -64,7 +65,7 @@ export const Footer = () => {
       </div>
 
       <div class="iconos"> 
-
+        
         <a href="https://www.instagram.com/kalmdeco/" class="icon"><i class="fa-brands fa-instagram fa-bounce"></i></a>
         <a href="https://www.facebook.com/people/Kalm-deco/100053256656718/?_rdr" class="icon"><i class="fa-brands fa-facebook fa-bounce"></i></a>
         

@@ -14,3 +14,5 @@ export {default as caroeuge} from './img/caroeuge.jpg'
 export { default as cartEmpty } from './img/svg/icono.svg'
 export { default as cartFull } from  './img/svg/icono.svg'
 
+export { default as ig} from './img/ig.jpg'
+

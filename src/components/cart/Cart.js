@@ -6,6 +6,9 @@ import { ItemCart } from '../../ItemCart/ItemCart';
 
 
 import './Cart.css'
+import { Link } from 'react-router-dom';
+
+
 
 export const Cart = () => {
 
@@ -58,7 +61,7 @@ export const Cart = () => {
                         <div className='modal-content'>
                             <h2>Tu carrito</h2>
 
-                            {cartItems.length === 0 ? <p>tu carrito está vacío</p> : (
+                            {cartItems.length === 0 ? <p>Tu carrito está vacío</p> : (
                                 <div>{cartItems.map((item, i) => (
 
                                     <ItemCart key={i} item={item} />
@@ -67,6 +70,8 @@ export const Cart = () => {
                             )}
 
                             <h2>Total: ${total}</h2>
+                            <Link to='/Shop'><button className='btn btn-primary'>Comprar</button></Link>
+                                    
                         </div>
                     </div>
                 </div>

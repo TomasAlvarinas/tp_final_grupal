@@ -22,7 +22,8 @@ export const CartProvider = ({ children }) => {
     const addItemToCart = (product) => {
         const inCart = cartItems.find(
             (productInCart) => productInCart.id === product.id
-        );
+            
+        );console.log(product.title)
 
         if(inCart){
             setCartItems(
@@ -36,6 +37,7 @@ export const CartProvider = ({ children }) => {
             setCartItems([...cartItems, {...product, amount: 1}])
         }
     };
+
     const deleteItemToCart = (product) => {
         const inCart =cartItems.find(
             (productInCart) => productInCart.id === product.id
