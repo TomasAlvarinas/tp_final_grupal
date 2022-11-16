@@ -53,7 +53,7 @@ export const Quienessomos = () => {
                 </div>
 
                 <div className='col-6'>
-                    <img src={caroeuge} alt='imgeugecaro' id='caroeuge'></img>
+                    <img src={caroeuge} alt='imgeugecaro' id='caroeuge' className='img-fluid'></img>
 
                     <br></br>
                     <br></br>
