@@ -4,6 +4,7 @@ const productos = [
     {
         id: 'sku001',
         title: 'Bandejas e individuales',
+        name: 'Bandejas e individuales',
         text:  '',
         img: './img/planta.jpeg',
         categorie: 'cat01',
@@ -14,6 +15,7 @@ const productos = [
     {
         id: 'sku002',
         title: 'Aromatizantes',
+        name: 'Aromatizantes',
         text:  '',
         img: './img/aromatizantes.jpg',
         categorie: 'cat02',
@@ -24,6 +26,7 @@ const productos = [
     {
         id: 'sku003',
         title: 'Canastas',
+        name: 'Canastas',
         text:  '',
         img: './img/canastas.jpg',
         categorie: 'cat01',
@@ -34,6 +37,7 @@ const productos = [
     {
         id: 'sku004',
         title: 'Jarrones',
+        name: 'Jarrones',
         text:  '',
         img: './img/jarrones.jpg',
         categorie: 'cat02',
@@ -44,6 +48,7 @@ const productos = [
     {
         id: 'sku005',
         title: 'Textiles',
+        name: 'Textiles',
         text:  '',
         img: './img/textiles.jpg',
         categorie: 'cat01',
@@ -54,6 +59,7 @@ const productos = [
     {
         id: 'sku006',
         title: 'Ceramicas',
+        name: 'Ceramicas',
         text:  '',
         img: './img/ceramicas.jpg',
         categorie: 'cat01',

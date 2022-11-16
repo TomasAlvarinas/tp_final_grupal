@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import { imgaromatizantes, imgcanastas, imgceramicas, imgjarrones, imgplanta, imgtextiles } from '../../assets'
 import { BtnPrimary } from '../BtnPrimary'
 import './Cards.css'
 import { CartContext } from '../context/CartContext'
@@ -8,7 +7,7 @@ import { productos } from '../../data/productos'
 
 export const Cards= () => {
 
-  const { addItemToCart, } = useContext(CartContext)
+  const { addItemToCart, deleteItemToCart } = useContext(CartContext)
   
   return (
 
@@ -30,6 +29,7 @@ export const Cards= () => {
                         <div className='card-footer'>
                           <BtnPrimary url={productos.url} />
                           <button className='btn btn-primary' onClick={()=> addItemToCart(productos)}>Comprar</button>
+                          <button className='btn btn-danger' onClick={() => deleteItemToCart(productos)}>Eliminar</button>
                         </div>
                     </div>
                 </div>

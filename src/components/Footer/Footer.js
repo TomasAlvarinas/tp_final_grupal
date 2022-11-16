@@ -13,29 +13,29 @@ export const Footer = () => {
 
         <form>
           <fieldset>
-            <form>
+            <form method='post' action="contact.php">
 
               <div className='container-fluid'>
                 <div className='row'>
 
               <div className='col-lg-6'>
-              <label for="inputEmail4" className="form-label">Nombre Completo</label>
-              <input type="text" aria-label="First name" className="form-control"></input>
+              <label for="Name" className="form-label">Nombre Completo</label>
+              <input type="text" aria-label="First name" className="form-control" name='txtName' id='txtName'></input>
               </div>
 
               <div className="col-lg-6">
-              <label for="inputEmail4" className="form-label">Email</label>
-              <input type="email" className="form-control" id="inputEmail4" placeholder=''></input>
+              <label for="email" className="form-label">Email</label>
+              <input type="text" className="form-control" id="txtEmail" placeholder='' name='txtEmail'></input>
               </div>
 
               <div className="col-lg-6">
               <label for="exampleInputCel1" className="form-label">Telefono</label>
               <input type="email" className="form-control" id="inputEmail4" placeholder='Incluí el código de area'></input>
-              </div>
+              </div> 
 
               <div className="col-lg-6">
-              <label for="exampleFormControlTextarea1" className="form-label">Consulta</label>
-              <textarea className='form-control' id='exampleFormControlTextarea1' rows={3}></textarea>
+              <label for="message" className="form-label">Consulta</label>
+              <textarea className='form-control' id='txtMessage' rows={3} name='txtMessage'></textarea>
               </div>
 
               </div>
@@ -63,14 +63,6 @@ export const Footer = () => {
           </fieldset>
         </form>
       </div>
-
-      <div class="iconos"> 
-        
-        <a href="https://www.instagram.com/kalmdeco/" class="icon"><i class="fa-brands fa-instagram fa-bounce"></i></a>
-        <a href="https://www.facebook.com/people/Kalm-deco/100053256656718/?_rdr" class="icon"><i class="fa-brands fa-facebook fa-bounce"></i></a>
-        
-      </div> 
-
 
     </footer>
   )

@@ -17,16 +17,16 @@ export const Cart = () => {
     const [productsLength, setProductsLehgth] = useState(0);
 
 
-    const { cartItems, } = useContext(CartContext)
+    const { cartItems, } = useContext(CartContext);
 
 
     useEffect(() => {
         setProductsLehgth(
-            cartItems?.reduce((previous, current) => previous + current.amount, 0) // reduce() Docu => https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
-        )
+            cartItems.reduce((previous, current) => previous + current.amount, 0) // reduce() Docu => https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+        );
     }, [cartItems]);
 
-    const total = cartItems?.reduce(
+    const total = cartItems.reduce(
         (previous, current) => previous + current.amount * current.price, 0);
     
     return (

@@ -16,3 +16,6 @@ export { default as cartFull } from  './img/svg/icono.svg'
 
 export { default as ig} from './img/ig.jpg'
 
+export { default as envios} from './img/envios.jpg'
+export { default as metodos} from './img/metodos.jpg'
+

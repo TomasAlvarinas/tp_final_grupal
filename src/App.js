@@ -17,7 +17,6 @@ import { Quienessomos } from "./components/pages/Quienessomos";
 import { CartProvider } from "./components/context/CartContext";
 
 
-
 function App() {
 
   return (
