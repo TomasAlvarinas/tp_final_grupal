@@ -16,7 +16,7 @@ export const NavBar = () => {
            <h2><center>Ideas para hacer tu casa mas linda</center></h2>
         </nav>
 
-    <nav className="navbar navbar-light fixed-top">
+    <nav className="navbar navbar-light navbar-collapse-sm fixed-top">
           <div className="container-fluid">
             <a className="navbar-brand" href="#"></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
