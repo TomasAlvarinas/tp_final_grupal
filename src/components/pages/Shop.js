@@ -6,8 +6,12 @@ export const Shop = () => {
   return (
 
     <>
+
+    <br></br>
     
     <h1>Carrito de compras</h1>
+
+    <br></br>
 
     <div>
       <h3><p>Gracias por confiar en Kalm Deco. Por favor complete los siguientes datos</p></h3>
@@ -106,6 +110,8 @@ export const Shop = () => {
 
   </div>
 </div>
+
+<br></br>
 
 
 

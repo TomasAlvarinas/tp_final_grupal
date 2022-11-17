@@ -9,26 +9,26 @@ import { Cart } from "../cart/Cart";
 export const NavBar = () => {
     return (
         
-    <div className="menu">
+    <div className="container-fluid" id="xxx">
         <nav className="options">
            <img src={logo} alt="img logo"></img>
-           <h1><center>Bienvenidos a Kalm Deco Home</center></h1>
+           <h1><center>Kalm Deco Home</center></h1>
            <h2><center>Ideas para hacer tu casa mas linda</center></h2>
         </nav>
 
-    <nav className="navbar navbar-light navbar-collapse-sm fixed-top">
+    <nav className="navbar navbar-expand{-sm|-md|-lg|-xl|-xxl} navbar-light fixed-top">
           <div className="container-fluid">
             <a className="navbar-brand" href="#"></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div className="offcanvas offcanvas-end navbar-expand-" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
               <div className="offcanvas-header">
                 <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div className="offcanvas-body">
-                <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <ul className= "navbar-nav justify-content-end flex-grow-1 pe-3">
                   <li className="nav-item">
                     <Link to="/"><button><a className="nav-link" aria-current="page" href="./index.html">Home</a></button></Link>
                   </li>
@@ -44,28 +44,26 @@ export const NavBar = () => {
                       </li>
                       <li><a className="dropdown-item" href="#">Cerrar</a></li>
                     </ul>
-                  </li>
-                  <li className="nav-item">
+                   </li>
+                    <li className="nav-item">
                     <Link to='/Quienes'><button><a className="nav-link" aria-current="page" href="./Page Contacto.html">Quienes somos</a></button></Link>
-                  </li>
-                  <li>
+                    </li>
+                    <li>
                     <Cart />
-                  </li>
-                </ul>
+                    </li>
+                  </ul>
                 
                 <br></br>
 
-                <form className="d-flex">
+                  <form className="d-flex">
                   <input className="form-control me-2" type="search" placeholder="Busca por productos" aria-label="Search"></input>
                   <button className="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
               </div>
             </div>
           </div>
-        </nav>
-
-        </div>
-
+      </nav>
+    </div>
 
 
 )
