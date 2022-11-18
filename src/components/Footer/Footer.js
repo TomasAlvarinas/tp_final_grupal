@@ -1,10 +1,17 @@
-import React from 'react'
-import { ig } from '../../assets'
+import React, { useEffect, useState } from 'react'
 import './footer.css'
+import { useLocalStorage } from './useLocalStorage'
 
 
 export const Footer = () => {
+
+  const [text, setText] = useLocalStorage('Nombre', '')
+  const [texto, setTexto] = useLocalStorage('Email', '')
+  const [texto1, setTexto1] = useLocalStorage('Telefono', '')
+  const [texto2, setTexto2] = useLocalStorage('Consulta', '')
+
   return (
+
     
     <footer>  
       <div className='end'>
@@ -13,29 +20,41 @@ export const Footer = () => {
 
         <form>
           <fieldset>
-            <form method='post' action="contact.php">
+            <form name='formulario' method='get' action="">
 
               <div className='container-fluid'>
                 <div className='row'>
-
+              
               <div className='col-lg-6'>
               <label for="Name" className="form-label">Nombre Completo</label>
-              <input type="text" aria-label="First name" className="form-control" name='txtName' id='txtName'></input>
-              </div>
-
+              <input type="text" aria-label="First name" className="form-control" name='nombre' id='txtName'
+              onChange={e => setText(e.target.value)}
+              value={text}
+              ></input>
+              </div> 
+                            
               <div className="col-lg-6">
               <label for="email" className="form-label">Email</label>
-              <input type="text" className="form-control" id="txtEmail" placeholder='' name='txtEmail'></input>
+              <input type="text" className="form-control" id="txtEmail" placeholder='' name='txtEmail'
+              onChange={e => setTexto(e.target.value)}
+              value={texto}
+              ></input>
               </div>
 
               <div className="col-lg-6">
               <label for="exampleInputCel1" className="form-label">Telefono</label>
-              <input type="email" className="form-control" id="inputEmail4" placeholder='Incluí el código de area'></input>
+              <input type="number" className="form-control" id="txtTelefono" placeholder='Incluí el código de area'
+              onChange={e => setTexto1(e.target.value)}
+              value={texto1}
+              ></input>
               </div> 
 
               <div className="col-lg-6">
               <label for="message" className="form-label">Consulta</label>
-              <textarea className='form-control' id='txtMessage' rows={3} name='txtMessage'></textarea>
+              <textarea className='form-control' id='txtMessage' rows={3} name='txtMessage'
+              onChange={e => setTexto2(e.target.value)}
+              value={texto2}
+              ></textarea>
               </div>
 
               </div>
@@ -47,6 +66,7 @@ export const Footer = () => {
               <div className="col-12">
               <div className="form-check">
                 <input className="form-check-input" type="checkbox" id="gridCheck"></input>
+                
                 <label className="form-check-label" for="gridCheck">
                   Deseo recibir notificaciones sobre los nuevos descuentos y sorteos 
                 </label>
@@ -56,8 +76,9 @@ export const Footer = () => {
               <br></br>
 
               <div className="col-12">
-              <button type="submit" class="btn btn-primary"> Enviar </button>
+              <button type="submit" class="btn btn-primary" value='submit'> Enviar </button>
               </div>
+
 
             </form>
           </fieldset>
@@ -66,4 +87,5 @@ export const Footer = () => {
 
     </footer>
   )
+  
 }
