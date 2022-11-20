@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/TomasAlvarinas/tp_final_grupal/static/css/main.5949f677.css",
+    "main.js": "/TomasAlvarinas/tp_final_grupal/static/js/main.b1bce87b.js",
+    "static/media/vid1.mp4": "/TomasAlvarinas/tp_final_grupal/static/media/vid1.89a7e452749c65604c6d.mp4",
+    "static/media/vid3.mp4": "/TomasAlvarinas/tp_final_grupal/static/media/vid3.05486f44e11b8026361e.mp4",
+    "static/media/vid2.mp4": "/TomasAlvarinas/tp_final_grupal/static/media/vid2.4225e78fd83efffe8d4c.mp4",
+    "static/media/textiles.jpg": "/TomasAlvarinas/tp_final_grupal/static/media/textiles.e2c7f9427b56ca2e4e6f.jpg",
+    "static/media/planta.jpeg": "/TomasAlvarinas/tp_final_grupal/static/media/planta.e4f75cddfa7137ed7b33.jpeg",
+    "static/media/caroeuge.jpg": "/TomasAlvarinas/tp_final_grupal/static/media/caroeuge.d637defe2d4f80ea3545.jpg",
+    "static/media/canastas.jpg": "/TomasAlvarinas/tp_final_grupal/static/media/canastas.7a1b26b6074f74ad5547.jpg",
+    "static/media/ceramicas.jpg": "/TomasAlvarinas/tp_final_grupal/static/media/ceramicas.f85398e7266d608be36a.jpg",
+    "static/media/aromatizantes.jpg": "/TomasAlvarinas/tp_final_grupal/static/media/aromatizantes.26d3d403285dc26422ba.jpg",
+    "static/media/jarrones.jpg": "/TomasAlvarinas/tp_final_grupal/static/media/jarrones.e21ad84dabc1554c1742.jpg",
+    "static/media/metodos.jpg": "/TomasAlvarinas/tp_final_grupal/static/media/metodos.efd894ac3aafff49784f.jpg",
+    "static/media/ig.jpg": "/TomasAlvarinas/tp_final_grupal/static/media/ig.2bf5d4cd57508b4b113c.jpg",
+    "static/media/envios.jpg": "/TomasAlvarinas/tp_final_grupal/static/media/envios.6dec373ce0d5a31e0111.jpg",
+    "static/media/logo.jpeg": "/TomasAlvarinas/tp_final_grupal/static/media/logo.d1c2481771d32ef82e71.jpeg",
+    "static/media/icono.svg": "/TomasAlvarinas/tp_final_grupal/static/media/icono.b1897ac8d2c9dad5f59ab65f48a05d40.svg",
+    "index.html": "/TomasAlvarinas/tp_final_grupal/index.html",
+    "main.5949f677.css.map": "/TomasAlvarinas/tp_final_grupal/static/css/main.5949f677.css.map",
+    "main.b1bce87b.js.map": "/TomasAlvarinas/tp_final_grupal/static/js/main.b1bce87b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5949f677.css",
+    "static/js/main.b1bce87b.js"
+  ]
+}
