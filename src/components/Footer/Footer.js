@@ -3,12 +3,14 @@ import './footer.css'
 import { useLocalStorage } from './useLocalStorage'
 
 
+
 export const Footer = () => {
 
   const [text, setText] = useLocalStorage('Nombre', '')
   const [texto, setTexto] = useLocalStorage('Email', '')
   const [texto1, setTexto1] = useLocalStorage('Telefono', '')
   const [texto2, setTexto2] = useLocalStorage('Consulta', '')
+
 
   return (
 
@@ -20,7 +22,7 @@ export const Footer = () => {
 
         <form>
           <fieldset>
-            <form name='formulario' method='get' action="">
+            <form name='formulario'>
 
               <div className='container-fluid'>
                 <div className='row'>
@@ -30,14 +32,17 @@ export const Footer = () => {
               <input type="text" aria-label="First name" className="form-control" name='nombre' id='txtName'
               onChange={e => setText(e.target.value)}
               value={text}
+              required
+              maxLength={45}
               ></input>
               </div> 
                             
               <div className="col-lg-6">
               <label for="email" className="form-label">Email</label>
-              <input type="text" className="form-control" id="txtEmail" placeholder='' name='txtEmail'
+              <input type="text" className="form-control" id="txtEmail" placeholder='' name='txtEmail' 
               onChange={e => setTexto(e.target.value)}
               value={texto}
+              required
               ></input>
               </div>
 
@@ -46,6 +51,8 @@ export const Footer = () => {
               <input type="number" className="form-control" id="txtTelefono" placeholder='Incluí el código de area'
               onChange={e => setTexto1(e.target.value)}
               value={texto1}
+              required
+              maxLength={12}
               ></input>
               </div> 
 
@@ -54,6 +61,7 @@ export const Footer = () => {
               <textarea className='form-control' id='txtMessage' rows={3} name='txtMessage'
               onChange={e => setTexto2(e.target.value)}
               value={texto2}
+              required
               ></textarea>
               </div>
 
@@ -69,6 +77,16 @@ export const Footer = () => {
                 
                 <label className="form-check-label" for="gridCheck">
                   Deseo recibir notificaciones sobre los nuevos descuentos y sorteos 
+                </label>
+              </div>
+              </div>
+
+              <div className="col-12">
+              <div className="form-check">
+                <input className="form-check-input" type="checkbox" id="gridCheck" required></input>
+                
+                <label className="form-check-label" for="gridCheck">
+                  Acepto terminos y condiciones 
                 </label>
               </div>
               </div>

@@ -1,8 +1,18 @@
 import React from 'react'
 import { envios, metodos } from '../../assets'
 import '../pages/Shop.css'
+import { useLocalStorage } from '../Footer/useLocalStorage'
 
 export const Shop = () => {
+
+  const [textShop, setTextShop] = useLocalStorage('Nombre Completo', '')
+  const [textoShop, setTextoShop] = useLocalStorage('Direccion', '')
+  const [texto1Shop, setTexto1Shop] = useLocalStorage('Numero de Tarjeta', '')
+  const [texto2Shop, setTexto2Shop] = useLocalStorage('Fecha de vencimiento', '')
+  const [texto3Shop, setTexto3Shop] = useLocalStorage('Emisor de la tarjeta', '')
+  const [texto4Shop, setTexto4Shop] = useLocalStorage('CVV', '')
+
+
   return (
 
     <>
@@ -25,7 +35,11 @@ export const Shop = () => {
     <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
     <div class="input-group">
       <div class="input-group-text">Nombre completo</div>
-      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Juan Perez"></input>
+      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Juan Perez"
+                    onChange={e => setTextShop(e.target.value)}
+                    value={textShop}
+                    required
+      ></input>
     </div>
   </div>
 
@@ -33,7 +47,11 @@ export const Shop = () => {
     <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
     <div class="input-group">
       <div class="input-group-text">Direccion</div>
-      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Av Cabildo 1200"></input>
+      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Av Cabildo 1200"
+                    onChange={e => setTextoShop(e.target.value)}
+                    value={textoShop}
+                    required
+      ></input>
     </div>
   </div>
 
@@ -41,7 +59,11 @@ export const Shop = () => {
     <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
     <div class="input-group">
       <div class="input-group-text">Numero de Tarjeta</div>
-      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="xxxx-xxxx-xxxx-xxxx"></input>
+      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="xxxx-xxxx-xxxx-xxxx"
+                    onChange={e => setTexto1Shop(e.target.value)}
+                    value={texto1Shop}
+                    required
+      ></input>
     </div>
   </div>
 
@@ -49,7 +71,11 @@ export const Shop = () => {
     <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
     <div class="input-group">
       <div class="input-group-text">Fecha de Vencimiento</div>
-      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="04/25"></input>
+      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="04/25"
+                    onChange={e => setTexto2Shop(e.target.value)}
+                    value={texto2Shop}
+                    required
+      ></input>
     </div>
   </div>
 
@@ -65,7 +91,11 @@ export const Shop = () => {
     <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
     <div class="input-group">
       <div class="input-group-text">Emisor de la tarjeta</div>
-      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="VISA"></input>
+      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="VISA"
+                          onChange={e => setTexto3Shop(e.target.value)}
+                          value={texto3Shop}
+                          required
+      ></input>
     </div>
   </div>
 
@@ -73,7 +103,11 @@ export const Shop = () => {
     <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
     <div class="input-group">
       <div class="input-group-text">CVV</div>
-      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="204"></input>
+      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="204"
+                          onChange={e => setTexto4Shop(e.target.value)}
+                          value={texto4Shop}
+                          required
+      ></input>
     </div>
   </div>
 

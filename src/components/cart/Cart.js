@@ -1,13 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
-
 import { cartEmpty, cartFull } from '../../assets';
 import { CartContext } from '../context/CartContext';
 import { ItemCart } from '../../ItemCart/ItemCart';
-
-
 import './Cart.css'
 import { Link } from 'react-router-dom';
-
 
 
 export const Cart = () => {
